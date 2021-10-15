@@ -1,0 +1,11 @@
+.tgsc_Circle {
+    p {
+        width: 250px;
+        height: 250px;
+        background: linear-gradient( $white, 51%, $gray-800 51%);
+        border: $gray-800;
+        border-radius: 50%;
+        border: 2px solid $gray-800;
+        text-align: center;
+    }
+}

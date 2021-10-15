@@ -1,0 +1,24 @@
+.tgsc_Button {
+    text-align: center;
+    button {
+        background-color: $gray-800; 
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 220px;
+        border-radius: 10px;
+        &:after{
+            content: ' \007C \22B3';
+            text-align: right;
+        }
+    }
+        
+        
+        
+}
